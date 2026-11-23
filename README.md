@@ -2,6 +2,7 @@
 
 一套自托管的 Cookie 同步方案：Chrome 扩展负责上传和同步当前网站的 Cookie，Cloudflare Worker + D1 负责云端存储与管理面板。
 
+
 ## 一、部署后端（Cloudflare Worker）
 
 1. 在 Cloudflare 创建一个 D1 数据库。
@@ -20,12 +21,14 @@
 - 勾选记录，支持全选、反选、取消选择和批量删除（删除前有二次确认）。
 - 新增、编辑、删除单条记录，值默认隐藏，点击可显示。
 - 深色与浅色主题切换，设置会保存在浏览器中。
+<img width="1912" height="914" alt="后端面板" src="https://github.com/user-attachments/assets/5df66649-f7e1-4e95-9221-ade48b496753" />
 
 ## 二、安装扩展
 
 1. 打开 chrome://extensions，开启右上角的「开发者模式」。
 2. 点击「加载已解压的扩展程序」，选择 extension 文件夹。
 3. 点击扩展图标，填写项目地址（形如 https://你的Worker域名/你的UUID）和密码 S_PW，点击「测试连接并保存」。
+<img width="372" height="384" alt="插件面板" src="https://github.com/user-attachments/assets/21a08d95-4376-47be-b45b-891b04e77aa1" />
 
 注意：extension 目录中必须包含 icon-16.png、icon-48.png、icon-128.png 三个 PNG 文件，manifest.json 已引用它们（icons 与 action.default_icon）。缺少任一文件，Chrome 将无法载入扩展。
 
