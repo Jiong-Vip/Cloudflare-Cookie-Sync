@@ -13,7 +13,7 @@
    - URL_302（变量，可选）：非法访问时跳转的地址，默认是 https://www.google.com。
 5. 数据库表和索引会在第一次请求时自动创建（CREATE TABLE IF NOT EXISTS 与 CREATE INDEX IF NOT EXISTS），无需手动执行 SQL。schema.sql 仅作参考。
 
-管理面板地址：https://你的 Worker 域名/你的UUID/
+管理面板地址：https://你的Worker域名/你的UUID/
 
 面板功能：
 - 按域名、备注、Cookie 名称实时筛选。
@@ -25,7 +25,7 @@
 
 1. 打开 chrome://extensions，开启右上角的「开发者模式」。
 2. 点击「加载已解压的扩展程序」，选择 extension 文件夹。
-3. 点击扩展图标，填写项目地址（形如 https://你的 Worker 域名/你的UUID）和密码 S_PW，点击「测试连接并保存」。
+3. 点击扩展图标，填写项目地址（形如 https://你的Worker域名/你的UUID）和密码 S_PW，点击「测试连接并保存」。
 
 注意：extension 目录中必须包含 icon-16.png、icon-48.png、icon-128.png 三个 PNG 文件，manifest.json 已引用它们（icons 与 action.default_icon）。缺少任一文件，Chrome 将无法载入扩展。
 
