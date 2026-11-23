@@ -62,3 +62,10 @@
 - extension/manifest.json：扩展清单。
 - extension/popup.html、popup.css、popup.js：弹窗界面与逻辑。
 - extension/background.js：后台服务，每 12 小时刷新域名缓存。
+
+
+## License
+
+This project is released under the [MIT License](./LICENSE). Copyright (c) 2026 Jiong-Vip.
+
+You may use, copy, modify, merge, publish, distribute, sublicense, and sell copies of this software, provided the copyright notice and permission notice are included in all copies or substantial portions. The software is provided "AS IS", without warranty of any kind.
