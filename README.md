@@ -21,7 +21,8 @@
 - 勾选记录，支持全选、反选、取消选择和批量删除（删除前有二次确认）。
 - 新增、编辑、删除单条记录，值默认隐藏，点击可显示。
 - 深色与浅色主题切换，设置会保存在浏览器中。
-<img width="1912" height="914" alt="后端面板" src="https://github.com/user-attachments/assets/5df66649-f7e1-4e95-9221-ade48b496753" />
+<img width="1912" height="914" alt="后端面板" src="https://github.com/user-attachments/assets/cd0698b1-0230-4839-b685-9010bb7b4b15" />
+
 
 ## 二、安装扩展
 
